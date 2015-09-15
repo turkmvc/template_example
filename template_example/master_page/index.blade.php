@@ -1,4 +1,4 @@
-@extends('example_template._layouts.application')
+@extends('template_example._layouts.application')
 
 
 
