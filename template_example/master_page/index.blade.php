@@ -8,15 +8,15 @@
         @foreach($field_details[$field_name] as $item)
             @if($item['type']=="content")
                 @if(in_array($user_role_id,unserialize($item['data']['access'])))
-                    @include('template_name._layouts.content._content',['content'=>$item['data']])
+                    @include('template_example._layouts.content._content',['content'=>$item['data']])
                 @endif
             @elseif($item['type']=="component-file")
                 @include($item['data']['component']['folder'].".".$item['data']['file'])
             @elseif($item['type']=="block")
-                @include('template_name._layouts.block._block',['item'=>$item['data']])
+                @include('template_example._layouts.block._block',['item'=>$item['data']])
             @elseif($item['type']=="main-content")
                 @if($item['data']['content_type']=="content")
-                    @include('template_name._layouts.content._content',['content'=>$item['data']['content']])
+                    @include('template_example._layouts.content._content',['content'=>$item['data']['content']])
                 @elseif($item['data']['content_type']=="component")
                     @include($item['data']['component']['component']['folder'].".".$item['data']['component']['file'])
                 @endif
