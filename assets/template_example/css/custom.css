@@ -551,6 +551,7 @@ cursor: pointer;}
 
 
 #footer {
+	margin:0;
     padding: 40px 0;
     background: #3a3a3a;
 }
