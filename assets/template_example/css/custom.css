@@ -126,7 +126,7 @@ div.navigasyon-bar ul {
     border-radius: 4px;
     margin-top: 41px;
     margin-left:20px;
-    margin-right:20px;
+    margin-right:35px;
 }
 div.navigasyon-bar ul > li { margin: 0px 1px 0px 0px; float: left;}
 div.navigasyon-bar ul > li:first-child a {
@@ -844,7 +844,7 @@ a.readmore {
    */
 
     div.navigasyon ul{ display: none; background-color: rgba(23, 23, 23, 0.9); text-align: left; width: 100%; padding: 0;
-        margin: 0; margin-top:25px; }
+        margin: 0; margin-top:25px; margin-right:25px; }
     div.navigasyon ul li { float: none; clear:both; padding: 2px; }
     div.navigasyon ul li a {border: 0px none; display: block; padding: 10px; border-bottom: 1px solid rgba(71, 122, 185, 0.5); }
     div.navigasyon ul li a:hover { color: #F6BE60;}
