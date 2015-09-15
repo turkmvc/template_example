@@ -10,7 +10,8 @@
   'name'=>'Örnek Şablon',
   'folder'=>'template_example',
   'description'=>'WholeCMS için örnek şablon',
-  'scaffold'=>'<div class="header col-md-12 col-xs-12">
+  'scaffold'=>
+'<div class="header col-md-12 col-xs-12">
 <span>Header</span>
 <div id="nl_header_right" class="dd header_right col-md-6 col-xs-6 pull-right">
 <span>Header Right <a href="nl_header_right"><i class="fa fa-cog"></i> </a></span>
@@ -62,7 +63,18 @@
 <div id="nl_hidden_field_3" class="dd col-md-4 col-xs-4 hidden_field">
 <span>Hidden Field <a href="nl_hidden_field_3"><i class="fa fa-cog"></i> </a></span>
 <div class="dd-empty"></div>
-</div>'
+</div>',
+	'fields'=>
+	[
+		'header_right',
+		'navigation',
+		'content_top',
+		'content_left',
+		'content_main',
+		'content_right',
+		'content_bottom',
+		'footer',
+	]
 ];
 
 
