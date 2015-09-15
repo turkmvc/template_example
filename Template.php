@@ -66,14 +66,14 @@
 </div>',
 	'fields'=>
 	[
-		'header_right',
-		'navigation',
-		'content_top',
-		'content_left',
-		'content_main',
-		'content_right',
-		'content_bottom',
-		'footer',
+		'header_right'=>'Header Right',
+		'navigation'=>'Navigaton',
+		'content_top'=>'Content Top',
+		'content_left'=>'Content Left',
+		'content_main'=>'Content Main',
+		'content_right'=>'Content Right',
+		'content_bottom'=>'Content Bottom',
+		'footer'=>'Footer',
 	]
 ];
 
